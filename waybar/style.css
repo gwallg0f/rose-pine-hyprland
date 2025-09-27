@@ -1,0 +1,114 @@
+/* Colors from polybar */
+@define-color background rgba(42, 39, 63, 0.6);
+@define-color background-alt #44415a;
+@define-color foreground #e0def4;
+@define-color primary #7AA2F7;
+@define-color secondary #8ABEB7;
+@define-color alert #A54242;
+@define-color disabled #A9B1D6;
+
+* {
+  border: none;
+  border-radius: 0px;
+  font-family: "FiraCode Nerd Font", "Noto Color Emoji";
+  font-size: 10pt;
+  min-height: 0;
+}
+
+window#waybar {
+  background: @background;
+  color: @foreground;
+/*  border: 2px solid #ea9a97;*/
+/*  border-radius: 12px;*/
+}
+
+#workspaces button {
+  padding: 0 4px;
+  color: @foreground;
+  background: transparent;
+ 
+}
+
+#workspaces button.active {
+  background: @background-alt;
+  border-bottom: 3px solid #c4a7e7;
+}
+
+#workspaces button.urgent {
+  background: @alert;
+  color: @foreground;
+}
+
+#workspaces button.empty {
+  color: @disabled;
+}
+
+#window {
+  padding: 0 6px;
+}
+
+#pulseaudio {
+  background: none;
+  color: #c4a7e7;
+  padding: 0 6px;
+
+  
+}
+
+#pulseaudio.muted {
+  background: #565f89;
+  color: @disabled;
+}
+
+#temperature {
+  background: none;
+  color: #f6c177;
+  padding: 0 6px;
+}
+
+#memory {
+  background: none;
+  color: #9ccfd8;
+  padding: 0 6px;
+}
+
+#cpu {
+  background: none;
+  color: #eb6f92;
+  padding: 0 6px;
+}
+
+#clock {
+  color: #e0def4;
+  padding: 0 6px;
+}
+
+#custom-power{
+  background-color: @background-alt;
+  margin-top: 6px; 
+  margin-right: 0px;
+  margin-bottom: 6px;
+  padding: 4px 0px; 
+  border-radius: 0 10px 10px 0;
+  border-width: 0px;
+}
+
+#custom-lock{
+  background-color: @background-alt;
+  margin-top: 6px; 
+  margin-left: 6px;
+  
+  margin-bottom: 6px;
+  padding: 4px 0px 4px 4px; 
+  border-radius: 10px 0 0 10px;
+  border-width: 0px;
+}
+
+#custom-reboot{
+  background-color: @background-alt;
+  margin-top: 6px; 
+  margin-bottom: 6px;
+  padding: 4px 0px;
+ 
+  border-width: 0px;
+}
