@@ -1,0 +1,71 @@
+{
+  "display": {
+    "separator": "  ",
+    "color": {
+      "foreground": "white"
+    }
+  },
+  "logo": {
+    "type": "builtin",
+    "source": "arch_small",
+    "color": {
+      "foreground": "blue"
+    }
+  },
+  "modules": [
+    {
+      "type": "os",
+      "key": " OS",
+      "keyColor": { "foreground": "brightblue" },
+      "valueColor": { "foreground": "white" }
+    },
+    {
+      "type": "kernel",
+      "key": " Kernel",
+      "keyColor": { "foreground": "brightblue" },
+      "valueColor": { "foreground": "white" }
+    },
+    {
+      "type": "shell",
+      "key": " Shell",
+      "keyColor": { "foreground": "brightmagenta" },
+      "valueColor": { "foreground": "white" }
+    },
+    {
+      "type": "uptime",
+      "key": " Uptime",
+      "keyColor": { "foreground": "brightblue" },
+      "valueColor": { "foreground": "white" }
+    },
+    {
+      "type": "cpu",
+      "key": " CPU",
+      "keyColor": { "foreground": "brightmagenta" },
+      "valueColor": { "foreground": "white" }
+    },
+    {
+      "type": "gpu",
+      "key": " GPU",
+      "keyColor": { "foreground": "brightblue" },
+      "valueColor": { "foreground": "white" }
+    },
+    {
+      "type": "memory",
+      "key": " Memory",
+      "keyColor": { "foreground": "brightmagenta" },
+      "valueColor": { "foreground": "white" }
+    },
+    {
+      "type": "wm",
+      "key": " WM",
+      "keyColor": { "foreground": "brightblue" },
+      "valueColor": { "foreground": "white" }
+    },
+    {
+      "type": "de",
+      "key": " DE",
+      "keyColor": { "foreground": "brightmagenta" },
+      "valueColor": { "foreground": "white" }
+    }
+  ]
+}
