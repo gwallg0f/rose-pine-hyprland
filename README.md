@@ -2,7 +2,7 @@
   <h1>Rosé Pine dots</h1>
 </div>
 <p align="center">
-  <img width="200" height="200" alt="New Project" src="https://github.com/user-attachments/assets/a751a9cd-64aa-48d7-ae3c-230c8e0e833b" />
+  <img width="100" height="100" alt="New Project" src="https://github.com/user-attachments/assets/a751a9cd-64aa-48d7-ae3c-230c8e0e833b" />
 </p>
 
 <details>
