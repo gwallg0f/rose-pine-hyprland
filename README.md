@@ -1,6 +1,6 @@
-<center>
+<div style="text-align:center;">
   <h1>Rosé Pine dots</h1>
-</center>
+</div>
 
 <details>
 
