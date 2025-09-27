@@ -1,4 +1,6 @@
-# Rosé Pine dots
+<center>
+  <h1>Rosé Pine dots</h1>
+</center>
 
 <details>
 
